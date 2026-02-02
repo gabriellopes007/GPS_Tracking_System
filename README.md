@@ -23,7 +23,4 @@ Using the bearing angle provided by the magnetometer an error occours due to the
 ![gps_final_nolost_errE](https://user-images.githubusercontent.com/30734909/168812514-8af78b88-07ac-40d7-954f-8beb5bd59475.png)
 
 
-
-Notice that this project doesn't work perfectly and I stoped it when the system presented a ok behavior. Many improviments are necessary but this is already a good start.
-
 Gabriel Lopes!
