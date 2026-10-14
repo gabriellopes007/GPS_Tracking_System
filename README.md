@@ -181,10 +181,15 @@ Using the bearing angle provided by the magnetometer an error occours due to the
 - `PathSimulationKF.ipynb` builds a synthetic path so you can see how position, velocity and acceleration relate and how the filter reacts.
 - `KFSimulationGPS.ipynb` replays data recorded by the embedded system and plots filtered versus raw positions.
 
+Simulation Results
+
 ![Path Simulation](docs/images/download.png)
-![Position over Time](docs/images/download(1).png)
-![Velocity over Time](docs/images/download(2).png)
-![Acceleration over Time](docs/images/download(3).png)
+
+![Position over Time](docs/images/download (1).png)
+
+![Velocity over Time](docs/images/download (2).png)
+
+![Acceleration over Time](docs/images/download (3).png)
 
 
 ---
