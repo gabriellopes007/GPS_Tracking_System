@@ -66,13 +66,20 @@ Model and parameters used in the code:
 | Process noise `Q` | built from `Q_var = 0.1` and powers of `dt` |
 | Initial covariance `P` | `diag(5, 1)` |
 
+---
+
+# Experimental Results
+
 The image bellow shows the results for the filter considering the mathematical calculation of the bearing angle. 
+
 ![gps_bearing_all](https://user-images.githubusercontent.com/30734909/168810791-bddce8c2-160b-4c14-9955-28e75f3ca5e3.png)
 
 Using the bearing angle provided by the magnetometer an error occours due to the electromagnetic interference from the car.
+
 ![gps_final_nolost_meters](https://user-images.githubusercontent.com/30734909/168812057-8ed65f9a-d6e1-419c-aa1a-ae3e2fa25be8.png)
 
 ![gps_final_nolost_errN](https://user-images.githubusercontent.com/30734909/168812476-e1e4e3a4-e888-4da8-a20f-d027db7fc16d.png)
+
 ![gps_final_nolost_errE](https://user-images.githubusercontent.com/30734909/168812514-8af78b88-07ac-40d7-954f-8beb5bd59475.png)
 
 ---
