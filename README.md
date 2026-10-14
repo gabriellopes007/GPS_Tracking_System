@@ -68,21 +68,6 @@ Model and parameters used in the code:
 
 ---
 
-# Experimental Results
-
-The image bellow shows the results for the filter considering the mathematical calculation of the bearing angle. 
-
-![gps_bearing_all](https://user-images.githubusercontent.com/30734909/168810791-bddce8c2-160b-4c14-9955-28e75f3ca5e3.png)
-
-Using the bearing angle provided by the magnetometer an error occours due to the electromagnetic interference from the car.
-
-![gps_final_nolost_meters](https://user-images.githubusercontent.com/30734909/168812057-8ed65f9a-d6e1-419c-aa1a-ae3e2fa25be8.png)
-
-![gps_final_nolost_errN](https://user-images.githubusercontent.com/30734909/168812476-e1e4e3a4-e888-4da8-a20f-d027db7fc16d.png)
-
-![gps_final_nolost_errE](https://user-images.githubusercontent.com/30734909/168812514-8af78b88-07ac-40d7-954f-8beb5bd59475.png)
-
----
 
 ## Hardware
 
@@ -179,10 +164,28 @@ These values are specific to one device and installation. Recalibrate for yours.
 
 ---
 
-## Simulations and results
+## Embedded and Simulation results
+
+The image bellow shows the results for the filter considering the mathematical calculation of the bearing angle. 
+
+![gps_bearing_all](https://user-images.githubusercontent.com/30734909/168810791-bddce8c2-160b-4c14-9955-28e75f3ca5e3.png)
+
+Using the bearing angle provided by the magnetometer an error occours due to the electromagnetic interference from the car.
+
+![gps_final_nolost_meters](https://user-images.githubusercontent.com/30734909/168812057-8ed65f9a-d6e1-419c-aa1a-ae3e2fa25be8.png)
+
+![gps_final_nolost_errN](https://user-images.githubusercontent.com/30734909/168812476-e1e4e3a4-e888-4da8-a20f-d027db7fc16d.png)
+
+![gps_final_nolost_errE](https://user-images.githubusercontent.com/30734909/168812514-8af78b88-07ac-40d7-954f-8beb5bd59475.png)
 
 - `PathSimulationKF.ipynb` builds a synthetic path so you can see how position, velocity and acceleration relate and how the filter reacts.
 - `KFSimulationGPS.ipynb` replays data recorded by the embedded system and plots filtered versus raw positions.
+
+![Path Simulation](docs/images/download.png)
+![Position over Time](docs/images/download(1).png)
+![Velocity over Time](docs/images/download(2).png)
+![Acceleration over Time](docs/images/download(3).png)
+
 
 ---
 
