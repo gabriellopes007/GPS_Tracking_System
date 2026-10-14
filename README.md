@@ -185,11 +185,11 @@ Simulation Results
 
 ![Path Simulation](docs/images/download.png)
 
-![Position over Time](docs/images/download (1).png)
+![Position over Time](docs/images/position.png)
 
-![Velocity over Time](docs/images/download (2).png)
+![Velocity over Time](docs/images/velocity.png)
 
-![Acceleration over Time](docs/images/download (3).png)
+![Acceleration over Time](docs/images/acceleration.png)
 
 
 ---
