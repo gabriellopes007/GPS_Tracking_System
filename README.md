@@ -206,6 +206,7 @@ Simulation Results
 ## Credits and licenses
 
 - **Author:** Gabriel Lopes, capstone project for the police vehicle fleet of Espírito Santo, Brazil.
+- **LoRa Implementation:** based on the work of Thomas Telkamp and Matthijs Kooijman.
 - **`arduino-lmic`:** third-party library from IBM, Thomas Telkamp, Matthijs Kooijman and MCCI, under the MIT license (see `arduino-lmic-master/LICENSE`).
 - **`HMC5883L` and `calibration_mag.ino`:** based on the work of Korneliusz Jarzebski.
 - **`Haversine`:** based on code by Matheau Goonan, modified for this project.
