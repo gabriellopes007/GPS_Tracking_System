@@ -2,6 +2,8 @@
 
 The current repository represents my Capstone project developed to university in order to accomplish a Automotive Tracking System for a car fleet used by the local police in Espírito Santo, Brazil. 
 
+![alt text](https://github.com/gabriellopes007/GPS_Tracking_System/blob/main/gps_tracking_system_arquitetura.png)
+
 The explanation on the files are as follows:
 - GPSKalmanFilter: This is the developed library for this project. It can be embedded in many devices used in Arduino enviroment. Later it is interesting to adapt it for several diferent MCU architecture. The link to the repository itself is: https://github.com/gabrielbklopes/GPSKalmanFilter
 - HMC5883L is the library to access the magnetometer. Some changes were applied.
