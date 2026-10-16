@@ -134,7 +134,7 @@ function decodeUplink(input) {
 
 ### Steps
 
-1. Wire the GPS, MPU6050, HMC5883L and LoRa radio to the ESP32 using the pins above (adjust `lmic_pins` and the GPS pins in `GPSFilter.ino` if your board differs).
+1. Wire the MPU6050 and HMC5883L to the Lilygo TTGO board (GPS and LoRa already wired) using the pins above (adjust `lmic_pins` and the GPS pins in `GPSFilter.ino` if your board differs).
 2. In `arduino-lmic-master/project_config/lmic_project_config.h`, select the correct LoRa region (the file in this repository enables `CFG_us915`) and the radio type (`CFG_sx1276_radio`).
 3. In `GPSFilter.ino`, set your own `NWKSKEY`, `APPSKEY` and `DEVADDR` (ABP activation) for your network server.
 4. [Calibrate the magnetometer](#magnetometer-calibration) and update the offsets in `loop()`.
