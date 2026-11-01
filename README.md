@@ -184,7 +184,7 @@ Using the bearing angle provided by the magnetometer an error occours due to the
 - **LoRa is disabled in `loop()`.** The `os_runloop_once()` block is commented out, so the current sketch filters and builds the payload but does not transmit until you uncomment it.
 - **Heading source.** The magnetometer heading is affected by vehicle interference. The Madgwick yaw is computed but the raw magnetometer heading is what is passed to the filter.
 - **Secrets in source code.** The LoRaWAN session keys and device address are hard-coded in `GPSFilter.ino`. Replace them with your own and avoid committing real keys; if you published real keys, rotate them.
-- **Code style.** The author notes the code does not follow best practices: manual matrix loops, a long `loop()` mixing several responsibilities, and leftover commented-out debug code.
+- **Code style.** The code does not follow best practices: manual matrix loops, a long `loop()` mixing several responsibilities, and leftover commented-out debug code.
 
 ---
 
